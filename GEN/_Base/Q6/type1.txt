@@ -1,0 +1,137 @@
+
+    \begin{problem}
+	Известно, что доля возвратов по кредитам в банке имеет распределение $F(x) = x^{\beta}, 0 \le x \le 1$. Наблюдения показали, что в среднем она составила $60.0$\%. Методом моментов оцените параметр $\beta$ и вероятность того, что она опуститься ниже $52.0$\%.
+	\end{problem}
+	\begin{solution}
+
+	$f(x) = F'(x) = \beta \cdot x^{\beta - 1}$
+
+	$\mu_{1} = E(X) = \int_{-\inf}^{\inf}x \cdot f(x) = \int_{-\inf}^{\inf} \beta \cdot x^{\beta} = \beta \cdot \frac{x^{\beta + 1}}{\beta + 1}\bigg|_0^1 = \frac{\beta}{\beta + 1}$
+
+	$\beta = (\beta + 1) \cdot 60.0$
+
+	$\beta = \frac{60.0}{1 - 60.0}$
+
+	$ P(x \le 52.0) = F(52.0) = 52.0^{1.5} $
+
+    Ответ: $1.5, 0.37$
+	\end{solution}
+    \begin{problem}
+	Известно, что доля возвратов по кредитам в банке имеет распределение $F(x) = x^{\beta}, 0 \le x \le 1$. Наблюдения показали, что в среднем она составила $71.0$\%. Методом моментов оцените параметр $\beta$ и вероятность того, что она опуститься ниже $62.0$\%.
+	\end{problem}
+	\begin{solution}
+
+	$f(x) = F'(x) = \beta \cdot x^{\beta - 1}$
+
+	$\mu_{1} = E(X) = \int_{-\inf}^{\inf}x \cdot f(x) = \int_{-\inf}^{\inf} \beta \cdot x^{\beta} = \beta \cdot \frac{x^{\beta + 1}}{\beta + 1}\bigg|_0^1 = \frac{\beta}{\beta + 1}$
+
+	$\beta = (\beta + 1) \cdot 71.0$
+
+	$\beta = \frac{71.0}{1 - 71.0}$
+
+	$ P(x \le 62.0) = F(62.0) = 62.0^{2.45} $
+
+    Ответ: $2.45, 0.31$
+	\end{solution}
+    \begin{problem}
+	Известно, что доля возвратов по кредитам в банке имеет распределение $F(x) = x^{\beta}, 0 \le x \le 1$. Наблюдения показали, что в среднем она составила $67.0$\%. Методом моментов оцените параметр $\beta$ и вероятность того, что она опуститься ниже $52.0$\%.
+	\end{problem}
+	\begin{solution}
+
+	$f(x) = F'(x) = \beta \cdot x^{\beta - 1}$
+
+	$\mu_{1} = E(X) = \int_{-\inf}^{\inf}x \cdot f(x) = \int_{-\inf}^{\inf} \beta \cdot x^{\beta} = \beta \cdot \frac{x^{\beta + 1}}{\beta + 1}\bigg|_0^1 = \frac{\beta}{\beta + 1}$
+
+	$\beta = (\beta + 1) \cdot 67.0$
+
+	$\beta = \frac{67.0}{1 - 67.0}$
+
+	$ P(x \le 52.0) = F(52.0) = 52.0^{2.03} $
+
+    Ответ: $2.03, 0.27$
+	\end{solution}
+    \begin{problem}
+	Известно, что доля возвратов по кредитам в банке имеет распределение $F(x) = x^{\beta}, 0 \le x \le 1$. Наблюдения показали, что в среднем она составила $55.0$\%. Методом моментов оцените параметр $\beta$ и вероятность того, что она опуститься ниже $50.0$\%.
+	\end{problem}
+	\begin{solution}
+
+	$f(x) = F'(x) = \beta \cdot x^{\beta - 1}$
+
+	$\mu_{1} = E(X) = \int_{-\inf}^{\inf}x \cdot f(x) = \int_{-\inf}^{\inf} \beta \cdot x^{\beta} = \beta \cdot \frac{x^{\beta + 1}}{\beta + 1}\bigg|_0^1 = \frac{\beta}{\beta + 1}$
+
+	$\beta = (\beta + 1) \cdot 55.0$
+
+	$\beta = \frac{55.0}{1 - 55.0}$
+
+	$ P(x \le 50.0) = F(50.0) = 50.0^{1.22} $
+
+    Ответ: $1.22, 0.43$
+	\end{solution}
+    \begin{problem}
+	Известно, что доля возвратов по кредитам в банке имеет распределение $F(x) = x^{\beta}, 0 \le x \le 1$. Наблюдения показали, что в среднем она составила $62.0$\%. Методом моментов оцените параметр $\beta$ и вероятность того, что она опуститься ниже $59.0$\%.
+	\end{problem}
+	\begin{solution}
+
+	$f(x) = F'(x) = \beta \cdot x^{\beta - 1}$
+
+	$\mu_{1} = E(X) = \int_{-\inf}^{\inf}x \cdot f(x) = \int_{-\inf}^{\inf} \beta \cdot x^{\beta} = \beta \cdot \frac{x^{\beta + 1}}{\beta + 1}\bigg|_0^1 = \frac{\beta}{\beta + 1}$
+
+	$\beta = (\beta + 1) \cdot 62.0$
+
+	$\beta = \frac{62.0}{1 - 62.0}$
+
+	$ P(x \le 59.0) = F(59.0) = 59.0^{1.63} $
+
+    Ответ: $1.63, 0.42$
+	\end{solution}
+    \begin{problem}
+	Известно, что доля возвратов по кредитам в банке имеет распределение $F(x) = x^{\beta}, 0 \le x \le 1$. Наблюдения показали, что в среднем она составила $74.0$\%. Методом моментов оцените параметр $\beta$ и вероятность того, что она опуститься ниже $73.0$\%.
+	\end{problem}
+	\begin{solution}
+
+	$f(x) = F'(x) = \beta \cdot x^{\beta - 1}$
+
+	$\mu_{1} = E(X) = \int_{-\inf}^{\inf}x \cdot f(x) = \int_{-\inf}^{\inf} \beta \cdot x^{\beta} = \beta \cdot \frac{x^{\beta + 1}}{\beta + 1}\bigg|_0^1 = \frac{\beta}{\beta + 1}$
+
+	$\beta = (\beta + 1) \cdot 74.0$
+
+	$\beta = \frac{74.0}{1 - 74.0}$
+
+	$ P(x \le 73.0) = F(73.0) = 73.0^{2.85} $
+
+    Ответ: $2.85, 0.41$
+	\end{solution}
+    \begin{problem}
+	Известно, что доля возвратов по кредитам в банке имеет распределение $F(x) = x^{\beta}, 0 \le x \le 1$. Наблюдения показали, что в среднем она составила $76.0$\%. Методом моментов оцените параметр $\beta$ и вероятность того, что она опуститься ниже $74.0$\%.
+	\end{problem}
+	\begin{solution}
+
+	$f(x) = F'(x) = \beta \cdot x^{\beta - 1}$
+
+	$\mu_{1} = E(X) = \int_{-\inf}^{\inf}x \cdot f(x) = \int_{-\inf}^{\inf} \beta \cdot x^{\beta} = \beta \cdot \frac{x^{\beta + 1}}{\beta + 1}\bigg|_0^1 = \frac{\beta}{\beta + 1}$
+
+	$\beta = (\beta + 1) \cdot 76.0$
+
+	$\beta = \frac{76.0}{1 - 76.0}$
+
+	$ P(x \le 74.0) = F(74.0) = 74.0^{3.17} $
+
+    Ответ: $3.17, 0.39$
+	\end{solution}
+    \begin{problem}
+	Известно, что доля возвратов по кредитам в банке имеет распределение $F(x) = x^{\beta}, 0 \le x \le 1$. Наблюдения показали, что в среднем она составила $57.0$\%. Методом моментов оцените параметр $\beta$ и вероятность того, что она опуститься ниже $51.0$\%.
+	\end{problem}
+	\begin{solution}
+
+	$f(x) = F'(x) = \beta \cdot x^{\beta - 1}$
+
+	$\mu_{1} = E(X) = \int_{-\inf}^{\inf}x \cdot f(x) = \int_{-\inf}^{\inf} \beta \cdot x^{\beta} = \beta \cdot \frac{x^{\beta + 1}}{\beta + 1}\bigg|_0^1 = \frac{\beta}{\beta + 1}$
+
+	$\beta = (\beta + 1) \cdot 57.0$
+
+	$\beta = \frac{57.0}{1 - 57.0}$
+
+	$ P(x \le 51.0) = F(51.0) = 51.0^{1.33} $
+
+    Ответ: $1.33, 0.41$
+	\end{solution}

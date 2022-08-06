@@ -1,0 +1,1075 @@
+\begin{problem}
+Случайные величины $X$ и $Y$ независимы и имеют равномерное
+распределение на отрезках $[0;10]$ и $[0;3]$ соответственно. Для случайной величины $Z=\frac{Y}{X}$ найдите: 
+1) функцию распределения $F_Z(x)$;
+2) плотность распределения $f_Z(x)$ и постройте график плотности;
+3) вероятность $\P(0,\!057\leqslant Z\leqslant 0,\!556)$.
+\end{problem}
+\begin{solution}
+%\folder 2_53d1.png
+1) Функция распределения $F_Z(x)$ имеет вид:
+$
+F_Z(x)=\left\{
+\begin{array}{l}
+0, x\leqslant 0;\\
+\frac{5 x}{3}, 0\leqslant x\leqslant \frac{3}{10}\approx 0,\!3;\\
+1 - \frac{3}{20 x}, x\geqslant\frac{3}{10};
+\end{array}.
+\right.
+$
+2) Плотность распределения $f_Z(x)$ имеет вид:
+$
+f_Z(x)=\left\{
+\begin{array}{l}
+0, x<0;\\
+\frac{5}{3}, 0\leqslant x\leqslant \frac{3}{10}\approx 0,\!3;\\
+\frac{3}{20 x^{2}}, x\geqslant\frac{3}{10};
+\end{array}.
+\right.
+$
+
+
+\begin{figure}[H]
+    \includegraphics[width=0.9\textwidth]{2_53d1}
+\end{figure}
+
+
+3) вероятность равна:
+$
+\P(0,\!057\leqslant Z\leqslant 0,\!556)=
+0,\!63552.
+$
+\end{solution}
+
+\begin{problem}
+Случайные величины $X$ и $Y$ независимы и имеют равномерное
+распределение на отрезках $[0;2]$ и $[0;1]$ соответственно. Для случайной величины $Z=\frac{Y}{X}$ найдите: 
+1) функцию распределения $F_Z(x)$;
+2) плотность распределения $f_Z(x)$ и постройте график плотности;
+3) вероятность $\P(0,\!093\leqslant Z\leqslant 0,\!551)$.
+\end{problem}
+\begin{solution}
+%\folder 2_53d2.png
+1) Функция распределения $F_Z(x)$ имеет вид:
+$
+F_Z(x)=\left\{
+\begin{array}{l}
+0, x\leqslant 0;\\
+x, 0\leqslant x\leqslant \frac{1}{2}\approx 0,\!5;\\
+1 - \frac{1}{4 x}, x\geqslant\frac{1}{2};
+\end{array}.
+\right.
+$
+2) Плотность распределения $f_Z(x)$ имеет вид:
+$
+f_Z(x)=\left\{
+\begin{array}{l}
+0, x<0;\\
+1, 0\leqslant x\leqslant \frac{1}{2}\approx 0,\!5;\\
+\frac{1}{4 x^{2}}, x\geqslant\frac{1}{2};
+\end{array}.
+\right.
+$
+
+
+\begin{figure}[H]
+    \includegraphics[width=0.9\textwidth]{2_53d2}
+\end{figure}
+
+
+3) вероятность равна:
+$
+\P(0,\!093\leqslant Z\leqslant 0,\!551)=
+0,\!45278.
+$
+\end{solution}
+
+\begin{problem}
+Случайные величины $X$ и $Y$ независимы и имеют равномерное
+распределение на отрезках $[0;1]$ и $[0;9]$ соответственно. Для случайной величины $Z=\frac{Y}{X}$ найдите: 
+1) функцию распределения $F_Z(x)$;
+2) плотность распределения $f_Z(x)$ и постройте график плотности;
+3) вероятность $\P(1,\!683\leqslant Z\leqslant 13,\!185)$.
+\end{problem}
+\begin{solution}
+%\folder 2_53d3.png
+1) Функция распределения $F_Z(x)$ имеет вид:
+$
+F_Z(x)=\left\{
+\begin{array}{l}
+0, x\leqslant 0;\\
+\frac{x}{18}, 0\leqslant x\leqslant 9\approx 9,\!0;\\
+1 - \frac{9}{2 x}, x\geqslant9;
+\end{array}.
+\right.
+$
+2) Плотность распределения $f_Z(x)$ имеет вид:
+$
+f_Z(x)=\left\{
+\begin{array}{l}
+0, x<0;\\
+\frac{1}{18}, 0\leqslant x\leqslant 9\approx 9,\!0;\\
+\frac{9}{2 x^{2}}, x\geqslant9;
+\end{array}.
+\right.
+$
+
+
+\begin{figure}[H]
+    \includegraphics[width=0.9\textwidth]{2_53d3}
+\end{figure}
+
+
+3) вероятность равна:
+$
+\P(1,\!683\leqslant Z\leqslant 13,\!185)=
+0,\!5652.
+$
+\end{solution}
+
+\begin{problem}
+Случайные величины $X$ и $Y$ независимы и имеют равномерное
+распределение на отрезках $[0;8]$ и $[0;2]$ соответственно. Для случайной величины $Z=\frac{Y}{X}$ найдите: 
+1) функцию распределения $F_Z(x)$;
+2) плотность распределения $f_Z(x)$ и постройте график плотности;
+3) вероятность $\P(0,\!094\leqslant Z\leqslant 0,\!294)$.
+\end{problem}
+\begin{solution}
+%\folder 2_53d4.png
+1) Функция распределения $F_Z(x)$ имеет вид:
+$
+F_Z(x)=\left\{
+\begin{array}{l}
+0, x\leqslant 0;\\
+2 x, 0\leqslant x\leqslant \frac{1}{4}\approx 0,\!25;\\
+1 - \frac{1}{8 x}, x\geqslant\frac{1}{4};
+\end{array}.
+\right.
+$
+2) Плотность распределения $f_Z(x)$ имеет вид:
+$
+f_Z(x)=\left\{
+\begin{array}{l}
+0, x<0;\\
+2, 0\leqslant x\leqslant \frac{1}{4}\approx 0,\!25;\\
+\frac{1}{8 x^{2}}, x\geqslant\frac{1}{4};
+\end{array}.
+\right.
+$
+
+
+\begin{figure}[H]
+    \includegraphics[width=0.9\textwidth]{2_53d4}
+\end{figure}
+
+
+3) вероятность равна:
+$
+\P(0,\!094\leqslant Z\leqslant 0,\!294)=
+0,\!38683.
+$
+\end{solution}
+
+\begin{problem}
+Случайные величины $X$ и $Y$ независимы и имеют равномерное
+распределение на отрезках $[0;9]$ и $[0;10]$ соответственно. Для случайной величины $Z=\frac{Y}{X}$ найдите: 
+1) функцию распределения $F_Z(x)$;
+2) плотность распределения $f_Z(x)$ и постройте график плотности;
+3) вероятность $\P(0,\!277\leqslant Z\leqslant 1,\!26)$.
+\end{problem}
+\begin{solution}
+%\folder 2_53d5.png
+1) Функция распределения $F_Z(x)$ имеет вид:
+$
+F_Z(x)=\left\{
+\begin{array}{l}
+0, x\leqslant 0;\\
+\frac{9 x}{20}, 0\leqslant x\leqslant \frac{10}{9}\approx 1,\!111;\\
+1 - \frac{5}{9 x}, x\geqslant\frac{10}{9};
+\end{array}.
+\right.
+$
+2) Плотность распределения $f_Z(x)$ имеет вид:
+$
+f_Z(x)=\left\{
+\begin{array}{l}
+0, x<0;\\
+\frac{9}{20}, 0\leqslant x\leqslant \frac{10}{9}\approx 1,\!111;\\
+\frac{5}{9 x^{2}}, x\geqslant\frac{10}{9};
+\end{array}.
+\right.
+$
+
+
+\begin{figure}[H]
+    \includegraphics[width=0.9\textwidth]{2_53d5}
+\end{figure}
+
+
+3) вероятность равна:
+$
+\P(0,\!277\leqslant Z\leqslant 1,\!26)=
+0,\!43458.
+$
+\end{solution}
+
+\begin{problem}
+Случайные величины $X$ и $Y$ независимы и имеют равномерное
+распределение на отрезках $[0;6]$ и $[0;8]$ соответственно. Для случайной величины $Z=\frac{Y}{X}$ найдите: 
+1) функцию распределения $F_Z(x)$;
+2) плотность распределения $f_Z(x)$ и постройте график плотности;
+3) вероятность $\P(0,\!729\leqslant Z\leqslant 1,\!912)$.
+\end{problem}
+\begin{solution}
+%\folder 2_53d6.png
+1) Функция распределения $F_Z(x)$ имеет вид:
+$
+F_Z(x)=\left\{
+\begin{array}{l}
+0, x\leqslant 0;\\
+\frac{3 x}{8}, 0\leqslant x\leqslant \frac{4}{3}\approx 1,\!333;\\
+1 - \frac{2}{3 x}, x\geqslant\frac{4}{3};
+\end{array}.
+\right.
+$
+2) Плотность распределения $f_Z(x)$ имеет вид:
+$
+f_Z(x)=\left\{
+\begin{array}{l}
+0, x<0;\\
+\frac{3}{8}, 0\leqslant x\leqslant \frac{4}{3}\approx 1,\!333;\\
+\frac{2}{3 x^{2}}, x\geqslant\frac{4}{3};
+\end{array}.
+\right.
+$
+
+
+\begin{figure}[H]
+    \includegraphics[width=0.9\textwidth]{2_53d6}
+\end{figure}
+
+
+3) вероятность равна:
+$
+\P(0,\!729\leqslant Z\leqslant 1,\!912)=
+0,\!37782.
+$
+\end{solution}
+
+\begin{problem}
+Случайные величины $X$ и $Y$ независимы и имеют равномерное
+распределение на отрезках $[0;6]$ и $[0;1]$ соответственно. Для случайной величины $Z=\frac{Y}{X}$ найдите: 
+1) функцию распределения $F_Z(x)$;
+2) плотность распределения $f_Z(x)$ и постройте график плотности;
+3) вероятность $\P(0,\!087\leqslant Z\leqslant 0,\!235)$.
+\end{problem}
+\begin{solution}
+%\folder 2_53d7.png
+1) Функция распределения $F_Z(x)$ имеет вид:
+$
+F_Z(x)=\left\{
+\begin{array}{l}
+0, x\leqslant 0;\\
+3 x, 0\leqslant x\leqslant \frac{1}{6}\approx 0,\!167;\\
+1 - \frac{1}{12 x}, x\geqslant\frac{1}{6};
+\end{array}.
+\right.
+$
+2) Плотность распределения $f_Z(x)$ имеет вид:
+$
+f_Z(x)=\left\{
+\begin{array}{l}
+0, x<0;\\
+3, 0\leqslant x\leqslant \frac{1}{6}\approx 0,\!167;\\
+\frac{1}{12 x^{2}}, x\geqslant\frac{1}{6};
+\end{array}.
+\right.
+$
+
+
+\begin{figure}[H]
+    \includegraphics[width=0.9\textwidth]{2_53d7}
+\end{figure}
+
+
+3) вероятность равна:
+$
+\P(0,\!087\leqslant Z\leqslant 0,\!235)=
+0,\!38564.
+$
+\end{solution}
+
+\begin{problem}
+Случайные величины $X$ и $Y$ независимы и имеют равномерное
+распределение на отрезках $[0;3]$ и $[0;8]$ соответственно. Для случайной величины $Z=\frac{Y}{X}$ найдите: 
+1) функцию распределения $F_Z(x)$;
+2) плотность распределения $f_Z(x)$ и постройте график плотности;
+3) вероятность $\P(2,\!475\leqslant Z\leqslant 4,\!811)$.
+\end{problem}
+\begin{solution}
+%\folder 2_53d8.png
+1) Функция распределения $F_Z(x)$ имеет вид:
+$
+F_Z(x)=\left\{
+\begin{array}{l}
+0, x\leqslant 0;\\
+\frac{3 x}{16}, 0\leqslant x\leqslant \frac{8}{3}\approx 2,\!667;\\
+1 - \frac{4}{3 x}, x\geqslant\frac{8}{3};
+\end{array}.
+\right.
+$
+2) Плотность распределения $f_Z(x)$ имеет вид:
+$
+f_Z(x)=\left\{
+\begin{array}{l}
+0, x<0;\\
+\frac{3}{16}, 0\leqslant x\leqslant \frac{8}{3}\approx 2,\!667;\\
+\frac{4}{3 x^{2}}, x\geqslant\frac{8}{3};
+\end{array}.
+\right.
+$
+
+
+\begin{figure}[H]
+    \includegraphics[width=0.9\textwidth]{2_53d8}
+\end{figure}
+
+
+3) вероятность равна:
+$
+\P(2,\!475\leqslant Z\leqslant 4,\!811)=
+0,\!25884.
+$
+\end{solution}
+
+\begin{problem}
+Случайные величины $X$ и $Y$ независимы и имеют равномерное
+распределение на отрезках $[0;2]$ и $[0;4]$ соответственно. Для случайной величины $Z=\frac{Y}{X}$ найдите: 
+1) функцию распределения $F_Z(x)$;
+2) плотность распределения $f_Z(x)$ и постройте график плотности;
+3) вероятность $\P(0,\!588\leqslant Z\leqslant 3,\!842)$.
+\end{problem}
+\begin{solution}
+%\folder 2_53d9.png
+1) Функция распределения $F_Z(x)$ имеет вид:
+$
+F_Z(x)=\left\{
+\begin{array}{l}
+0, x\leqslant 0;\\
+\frac{x}{4}, 0\leqslant x\leqslant 2\approx 2,\!0;\\
+1 - \frac{1}{x}, x\geqslant2;
+\end{array}.
+\right.
+$
+2) Плотность распределения $f_Z(x)$ имеет вид:
+$
+f_Z(x)=\left\{
+\begin{array}{l}
+0, x<0;\\
+\frac{1}{4}, 0\leqslant x\leqslant 2\approx 2,\!0;\\
+\frac{1}{x^{2}}, x\geqslant2;
+\end{array}.
+\right.
+$
+
+
+\begin{figure}[H]
+    \includegraphics[width=0.9\textwidth]{2_53d9}
+\end{figure}
+
+
+3) вероятность равна:
+$
+\P(0,\!588\leqslant Z\leqslant 3,\!842)=
+0,\!59272.
+$
+\end{solution}
+
+\begin{problem}
+Случайные величины $X$ и $Y$ независимы и имеют равномерное
+распределение на отрезках $[0;1]$ и $[0;8]$ соответственно. Для случайной величины $Z=\frac{Y}{X}$ найдите: 
+1) функцию распределения $F_Z(x)$;
+2) плотность распределения $f_Z(x)$ и постройте график плотности;
+3) вероятность $\P(0,\!16\leqslant Z\leqslant 11,\!592)$.
+\end{problem}
+\begin{solution}
+%\folder 2_53d10.png
+1) Функция распределения $F_Z(x)$ имеет вид:
+$
+F_Z(x)=\left\{
+\begin{array}{l}
+0, x\leqslant 0;\\
+\frac{x}{16}, 0\leqslant x\leqslant 8\approx 8,\!0;\\
+1 - \frac{4}{x}, x\geqslant8;
+\end{array}.
+\right.
+$
+2) Плотность распределения $f_Z(x)$ имеет вид:
+$
+f_Z(x)=\left\{
+\begin{array}{l}
+0, x<0;\\
+\frac{1}{16}, 0\leqslant x\leqslant 8\approx 8,\!0;\\
+\frac{4}{x^{2}}, x\geqslant8;
+\end{array}.
+\right.
+$
+
+
+\begin{figure}[H]
+    \includegraphics[width=0.9\textwidth]{2_53d10}
+\end{figure}
+
+
+3) вероятность равна:
+$
+\P(0,\!16\leqslant Z\leqslant 11,\!592)=
+0,\!64493.
+$
+\end{solution}
+
+\begin{problem}
+Случайные величины $X$ и $Y$ независимы и имеют равномерное
+распределение на отрезках $[0;4]$ и $[0;3]$ соответственно. Для случайной величины $Z=\frac{Y}{X}$ найдите: 
+1) функцию распределения $F_Z(x)$;
+2) плотность распределения $f_Z(x)$ и постройте график плотности;
+3) вероятность $\P(0,\!182\leqslant Z\leqslant 1,\!21)$.
+\end{problem}
+\begin{solution}
+%\folder 2_53d11.png
+1) Функция распределения $F_Z(x)$ имеет вид:
+$
+F_Z(x)=\left\{
+\begin{array}{l}
+0, x\leqslant 0;\\
+\frac{2 x}{3}, 0\leqslant x\leqslant \frac{3}{4}\approx 0,\!75;\\
+1 - \frac{3}{8 x}, x\geqslant\frac{3}{4};
+\end{array}.
+\right.
+$
+2) Плотность распределения $f_Z(x)$ имеет вид:
+$
+f_Z(x)=\left\{
+\begin{array}{l}
+0, x<0;\\
+\frac{2}{3}, 0\leqslant x\leqslant \frac{3}{4}\approx 0,\!75;\\
+\frac{3}{8 x^{2}}, x\geqslant\frac{3}{4};
+\end{array}.
+\right.
+$
+
+
+\begin{figure}[H]
+    \includegraphics[width=0.9\textwidth]{2_53d11}
+\end{figure}
+
+
+3) вероятность равна:
+$
+\P(0,\!182\leqslant Z\leqslant 1,\!21)=
+0,\!56852.
+$
+\end{solution}
+
+\begin{problem}
+Случайные величины $X$ и $Y$ независимы и имеют равномерное
+распределение на отрезках $[0;4]$ и $[0;7]$ соответственно. Для случайной величины $Z=\frac{Y}{X}$ найдите: 
+1) функцию распределения $F_Z(x)$;
+2) плотность распределения $f_Z(x)$ и постройте график плотности;
+3) вероятность $\P(0,\!035\leqslant Z\leqslant 2,\!775)$.
+\end{problem}
+\begin{solution}
+%\folder 2_53d12.png
+1) Функция распределения $F_Z(x)$ имеет вид:
+$
+F_Z(x)=\left\{
+\begin{array}{l}
+0, x\leqslant 0;\\
+\frac{2 x}{7}, 0\leqslant x\leqslant \frac{7}{4}\approx 1,\!75;\\
+1 - \frac{7}{8 x}, x\geqslant\frac{7}{4};
+\end{array}.
+\right.
+$
+2) Плотность распределения $f_Z(x)$ имеет вид:
+$
+f_Z(x)=\left\{
+\begin{array}{l}
+0, x<0;\\
+\frac{2}{7}, 0\leqslant x\leqslant \frac{7}{4}\approx 1,\!75;\\
+\frac{7}{8 x^{2}}, x\geqslant\frac{7}{4};
+\end{array}.
+\right.
+$
+
+
+\begin{figure}[H]
+    \includegraphics[width=0.9\textwidth]{2_53d12}
+\end{figure}
+
+
+3) вероятность равна:
+$
+\P(0,\!035\leqslant Z\leqslant 2,\!775)=
+0,\!67474.
+$
+\end{solution}
+
+\begin{problem}
+Случайные величины $X$ и $Y$ независимы и имеют равномерное
+распределение на отрезках $[0;1]$ и $[0;10]$ соответственно. Для случайной величины $Z=\frac{Y}{X}$ найдите: 
+1) функцию распределения $F_Z(x)$;
+2) плотность распределения $f_Z(x)$ и постройте график плотности;
+3) вероятность $\P(2,\!96\leqslant Z\leqslant 17,\!91)$.
+\end{problem}
+\begin{solution}
+%\folder 2_53d13.png
+1) Функция распределения $F_Z(x)$ имеет вид:
+$
+F_Z(x)=\left\{
+\begin{array}{l}
+0, x\leqslant 0;\\
+\frac{x}{20}, 0\leqslant x\leqslant 10\approx 10,\!0;\\
+1 - \frac{5}{x}, x\geqslant10;
+\end{array}.
+\right.
+$
+2) Плотность распределения $f_Z(x)$ имеет вид:
+$
+f_Z(x)=\left\{
+\begin{array}{l}
+0, x<0;\\
+\frac{1}{20}, 0\leqslant x\leqslant 10\approx 10,\!0;\\
+\frac{5}{x^{2}}, x\geqslant10;
+\end{array}.
+\right.
+$
+
+
+\begin{figure}[H]
+    \includegraphics[width=0.9\textwidth]{2_53d13}
+\end{figure}
+
+
+3) вероятность равна:
+$
+\P(2,\!96\leqslant Z\leqslant 17,\!91)=
+0,\!57283.
+$
+\end{solution}
+
+\begin{problem}
+Случайные величины $X$ и $Y$ независимы и имеют равномерное
+распределение на отрезках $[0;10]$ и $[0;9]$ соответственно. Для случайной величины $Z=\frac{Y}{X}$ найдите: 
+1) функцию распределения $F_Z(x)$;
+2) плотность распределения $f_Z(x)$ и постройте график плотности;
+3) вероятность $\P(0,\!719\leqslant Z\leqslant 1,\!005)$.
+\end{problem}
+\begin{solution}
+%\folder 2_53d14.png
+1) Функция распределения $F_Z(x)$ имеет вид:
+$
+F_Z(x)=\left\{
+\begin{array}{l}
+0, x\leqslant 0;\\
+\frac{5 x}{9}, 0\leqslant x\leqslant \frac{9}{10}\approx 0,\!9;\\
+1 - \frac{9}{20 x}, x\geqslant\frac{9}{10};
+\end{array}.
+\right.
+$
+2) Плотность распределения $f_Z(x)$ имеет вид:
+$
+f_Z(x)=\left\{
+\begin{array}{l}
+0, x<0;\\
+\frac{5}{9}, 0\leqslant x\leqslant \frac{9}{10}\approx 0,\!9;\\
+\frac{9}{20 x^{2}}, x\geqslant\frac{9}{10};
+\end{array}.
+\right.
+$
+
+
+\begin{figure}[H]
+    \includegraphics[width=0.9\textwidth]{2_53d14}
+\end{figure}
+
+
+3) вероятность равна:
+$
+\P(0,\!719\leqslant Z\leqslant 1,\!005)=
+0,\!15287.
+$
+\end{solution}
+
+\begin{problem}
+Случайные величины $X$ и $Y$ независимы и имеют равномерное
+распределение на отрезках $[0;2]$ и $[0;7]$ соответственно. Для случайной величины $Z=\frac{Y}{X}$ найдите: 
+1) функцию распределения $F_Z(x)$;
+2) плотность распределения $f_Z(x)$ и постройте график плотности;
+3) вероятность $\P(2,\!019\leqslant Z\leqslant 3,\!843)$.
+\end{problem}
+\begin{solution}
+%\folder 2_53d15.png
+1) Функция распределения $F_Z(x)$ имеет вид:
+$
+F_Z(x)=\left\{
+\begin{array}{l}
+0, x\leqslant 0;\\
+\frac{x}{7}, 0\leqslant x\leqslant \frac{7}{2}\approx 3,\!5;\\
+1 - \frac{7}{4 x}, x\geqslant\frac{7}{2};
+\end{array}.
+\right.
+$
+2) Плотность распределения $f_Z(x)$ имеет вид:
+$
+f_Z(x)=\left\{
+\begin{array}{l}
+0, x<0;\\
+\frac{1}{7}, 0\leqslant x\leqslant \frac{7}{2}\approx 3,\!5;\\
+\frac{7}{4 x^{2}}, x\geqslant\frac{7}{2};
+\end{array}.
+\right.
+$
+
+
+\begin{figure}[H]
+    \includegraphics[width=0.9\textwidth]{2_53d15}
+\end{figure}
+
+
+3) вероятность равна:
+$
+\P(2,\!019\leqslant Z\leqslant 3,\!843)=
+0,\!25613.
+$
+\end{solution}
+
+\begin{problem}
+Случайные величины $X$ и $Y$ независимы и имеют равномерное
+распределение на отрезках $[0;5]$ и $[0;10]$ соответственно. Для случайной величины $Z=\frac{Y}{X}$ найдите: 
+1) функцию распределения $F_Z(x)$;
+2) плотность распределения $f_Z(x)$ и постройте график плотности;
+3) вероятность $\P(0,\!1\leqslant Z\leqslant 3,\!714)$.
+\end{problem}
+\begin{solution}
+%\folder 2_53d16.png
+1) Функция распределения $F_Z(x)$ имеет вид:
+$
+F_Z(x)=\left\{
+\begin{array}{l}
+0, x\leqslant 0;\\
+\frac{x}{4}, 0\leqslant x\leqslant 2\approx 2,\!0;\\
+1 - \frac{1}{x}, x\geqslant2;
+\end{array}.
+\right.
+$
+2) Плотность распределения $f_Z(x)$ имеет вид:
+$
+f_Z(x)=\left\{
+\begin{array}{l}
+0, x<0;\\
+\frac{1}{4}, 0\leqslant x\leqslant 2\approx 2,\!0;\\
+\frac{1}{x^{2}}, x\geqslant2;
+\end{array}.
+\right.
+$
+
+
+\begin{figure}[H]
+    \includegraphics[width=0.9\textwidth]{2_53d16}
+\end{figure}
+
+
+3) вероятность равна:
+$
+\P(0,\!1\leqslant Z\leqslant 3,\!714)=
+0,\!70575.
+$
+\end{solution}
+
+\begin{problem}
+Случайные величины $X$ и $Y$ независимы и имеют равномерное
+распределение на отрезках $[0;6]$ и $[0;9]$ соответственно. Для случайной величины $Z=\frac{Y}{X}$ найдите: 
+1) функцию распределения $F_Z(x)$;
+2) плотность распределения $f_Z(x)$ и постройте график плотности;
+3) вероятность $\P(1,\!179\leqslant Z\leqslant 2,\!754)$.
+\end{problem}
+\begin{solution}
+%\folder 2_53d17.png
+1) Функция распределения $F_Z(x)$ имеет вид:
+$
+F_Z(x)=\left\{
+\begin{array}{l}
+0, x\leqslant 0;\\
+\frac{x}{3}, 0\leqslant x\leqslant \frac{3}{2}\approx 1,\!5;\\
+1 - \frac{3}{4 x}, x\geqslant\frac{3}{2};
+\end{array}.
+\right.
+$
+2) Плотность распределения $f_Z(x)$ имеет вид:
+$
+f_Z(x)=\left\{
+\begin{array}{l}
+0, x<0;\\
+\frac{1}{3}, 0\leqslant x\leqslant \frac{3}{2}\approx 1,\!5;\\
+\frac{3}{4 x^{2}}, x\geqslant\frac{3}{2};
+\end{array}.
+\right.
+$
+
+
+\begin{figure}[H]
+    \includegraphics[width=0.9\textwidth]{2_53d17}
+\end{figure}
+
+
+3) вероятность равна:
+$
+\P(1,\!179\leqslant Z\leqslant 2,\!754)=
+0,\!33467.
+$
+\end{solution}
+
+\begin{problem}
+Случайные величины $X$ и $Y$ независимы и имеют равномерное
+распределение на отрезках $[0;7]$ и $[0;3]$ соответственно. Для случайной величины $Z=\frac{Y}{X}$ найдите: 
+1) функцию распределения $F_Z(x)$;
+2) плотность распределения $f_Z(x)$ и постройте график плотности;
+3) вероятность $\P(0,\!006\leqslant Z\leqslant 0,\!519)$.
+\end{problem}
+\begin{solution}
+%\folder 2_53d18.png
+1) Функция распределения $F_Z(x)$ имеет вид:
+$
+F_Z(x)=\left\{
+\begin{array}{l}
+0, x\leqslant 0;\\
+\frac{7 x}{6}, 0\leqslant x\leqslant \frac{3}{7}\approx 0,\!429;\\
+1 - \frac{3}{14 x}, x\geqslant\frac{3}{7};
+\end{array}.
+\right.
+$
+2) Плотность распределения $f_Z(x)$ имеет вид:
+$
+f_Z(x)=\left\{
+\begin{array}{l}
+0, x<0;\\
+\frac{7}{6}, 0\leqslant x\leqslant \frac{3}{7}\approx 0,\!429;\\
+\frac{3}{14 x^{2}}, x\geqslant\frac{3}{7};
+\end{array}.
+\right.
+$
+
+
+\begin{figure}[H]
+    \includegraphics[width=0.9\textwidth]{2_53d18}
+\end{figure}
+
+
+3) вероятность равна:
+$
+\P(0,\!006\leqslant Z\leqslant 0,\!519)=
+0,\!57962.
+$
+\end{solution}
+
+\begin{problem}
+Случайные величины $X$ и $Y$ независимы и имеют равномерное
+распределение на отрезках $[0;9]$ и $[0;3]$ соответственно. Для случайной величины $Z=\frac{Y}{X}$ найдите: 
+1) функцию распределения $F_Z(x)$;
+2) плотность распределения $f_Z(x)$ и постройте график плотности;
+3) вероятность $\P(0,\!059\leqslant Z\leqslant 0,\!348)$.
+\end{problem}
+\begin{solution}
+%\folder 2_53d19.png
+1) Функция распределения $F_Z(x)$ имеет вид:
+$
+F_Z(x)=\left\{
+\begin{array}{l}
+0, x\leqslant 0;\\
+\frac{3 x}{2}, 0\leqslant x\leqslant \frac{1}{3}\approx 0,\!333;\\
+1 - \frac{1}{6 x}, x\geqslant\frac{1}{3};
+\end{array}.
+\right.
+$
+2) Плотность распределения $f_Z(x)$ имеет вид:
+$
+f_Z(x)=\left\{
+\begin{array}{l}
+0, x<0;\\
+\frac{3}{2}, 0\leqslant x\leqslant \frac{1}{3}\approx 0,\!333;\\
+\frac{1}{6 x^{2}}, x\geqslant\frac{1}{3};
+\end{array}.
+\right.
+$
+
+
+\begin{figure}[H]
+    \includegraphics[width=0.9\textwidth]{2_53d19}
+\end{figure}
+
+
+3) вероятность равна:
+$
+\P(0,\!059\leqslant Z\leqslant 0,\!348)=
+0,\!43307.
+$
+\end{solution}
+
+\begin{problem}
+Случайные величины $X$ и $Y$ независимы и имеют равномерное
+распределение на отрезках $[0;2]$ и $[0;6]$ соответственно. Для случайной величины $Z=\frac{Y}{X}$ найдите: 
+1) функцию распределения $F_Z(x)$;
+2) плотность распределения $f_Z(x)$ и постройте график плотности;
+3) вероятность $\P(2,\!532\leqslant Z\leqslant 4,\!716)$.
+\end{problem}
+\begin{solution}
+%\folder 2_53d20.png
+1) Функция распределения $F_Z(x)$ имеет вид:
+$
+F_Z(x)=\left\{
+\begin{array}{l}
+0, x\leqslant 0;\\
+\frac{x}{6}, 0\leqslant x\leqslant 3\approx 3,\!0;\\
+1 - \frac{3}{2 x}, x\geqslant3;
+\end{array}.
+\right.
+$
+2) Плотность распределения $f_Z(x)$ имеет вид:
+$
+f_Z(x)=\left\{
+\begin{array}{l}
+0, x<0;\\
+\frac{1}{6}, 0\leqslant x\leqslant 3\approx 3,\!0;\\
+\frac{3}{2 x^{2}}, x\geqslant3;
+\end{array}.
+\right.
+$
+
+
+\begin{figure}[H]
+    \includegraphics[width=0.9\textwidth]{2_53d20}
+\end{figure}
+
+
+3) вероятность равна:
+$
+\P(2,\!532\leqslant Z\leqslant 4,\!716)=
+0,\!25993.
+$
+\end{solution}
+
+\begin{problem}
+Случайные величины $X$ и $Y$ независимы и имеют равномерное
+распределение на отрезках $[0;1]$ и $[0;3]$ соответственно. Для случайной величины $Z=\frac{Y}{X}$ найдите: 
+1) функцию распределения $F_Z(x)$;
+2) плотность распределения $f_Z(x)$ и постройте график плотности;
+3) вероятность $\P(0,\!039\leqslant Z\leqslant 5,\!208)$.
+\end{problem}
+\begin{solution}
+%\folder 2_53d21.png
+1) Функция распределения $F_Z(x)$ имеет вид:
+$
+F_Z(x)=\left\{
+\begin{array}{l}
+0, x\leqslant 0;\\
+\frac{x}{6}, 0\leqslant x\leqslant 3\approx 3,\!0;\\
+1 - \frac{3}{2 x}, x\geqslant3;
+\end{array}.
+\right.
+$
+2) Плотность распределения $f_Z(x)$ имеет вид:
+$
+f_Z(x)=\left\{
+\begin{array}{l}
+0, x<0;\\
+\frac{1}{6}, 0\leqslant x\leqslant 3\approx 3,\!0;\\
+\frac{3}{2 x^{2}}, x\geqslant3;
+\end{array}.
+\right.
+$
+
+
+\begin{figure}[H]
+    \includegraphics[width=0.9\textwidth]{2_53d21}
+\end{figure}
+
+
+3) вероятность равна:
+$
+\P(0,\!039\leqslant Z\leqslant 5,\!208)=
+0,\!70548.
+$
+\end{solution}
+
+\begin{problem}
+Случайные величины $X$ и $Y$ независимы и имеют равномерное
+распределение на отрезках $[0;7]$ и $[0;8]$ соответственно. Для случайной величины $Z=\frac{Y}{X}$ найдите: 
+1) функцию распределения $F_Z(x)$;
+2) плотность распределения $f_Z(x)$ и постройте график плотности;
+3) вероятность $\P(1,\!072\leqslant Z\leqslant 1,\!953)$.
+\end{problem}
+\begin{solution}
+%\folder 2_53d22.png
+1) Функция распределения $F_Z(x)$ имеет вид:
+$
+F_Z(x)=\left\{
+\begin{array}{l}
+0, x\leqslant 0;\\
+\frac{7 x}{16}, 0\leqslant x\leqslant \frac{8}{7}\approx 1,\!143;\\
+1 - \frac{4}{7 x}, x\geqslant\frac{8}{7};
+\end{array}.
+\right.
+$
+2) Плотность распределения $f_Z(x)$ имеет вид:
+$
+f_Z(x)=\left\{
+\begin{array}{l}
+0, x<0;\\
+\frac{7}{16}, 0\leqslant x\leqslant \frac{8}{7}\approx 1,\!143;\\
+\frac{4}{7 x^{2}}, x\geqslant\frac{8}{7};
+\end{array}.
+\right.
+$
+
+
+\begin{figure}[H]
+    \includegraphics[width=0.9\textwidth]{2_53d22}
+\end{figure}
+
+
+3) вероятность равна:
+$
+\P(1,\!072\leqslant Z\leqslant 1,\!953)=
+0,\!23843.
+$
+\end{solution}
+
+\begin{problem}
+Случайные величины $X$ и $Y$ независимы и имеют равномерное
+распределение на отрезках $[0;3]$ и $[0;10]$ соответственно. Для случайной величины $Z=\frac{Y}{X}$ найдите: 
+1) функцию распределения $F_Z(x)$;
+2) плотность распределения $f_Z(x)$ и постройте график плотности;
+3) вероятность $\P(3,\!263\leqslant Z\leqslant 5,\!35)$.
+\end{problem}
+\begin{solution}
+%\folder 2_53d23.png
+1) Функция распределения $F_Z(x)$ имеет вид:
+$
+F_Z(x)=\left\{
+\begin{array}{l}
+0, x\leqslant 0;\\
+\frac{3 x}{20}, 0\leqslant x\leqslant \frac{10}{3}\approx 3,\!333;\\
+1 - \frac{5}{3 x}, x\geqslant\frac{10}{3};
+\end{array}.
+\right.
+$
+2) Плотность распределения $f_Z(x)$ имеет вид:
+$
+f_Z(x)=\left\{
+\begin{array}{l}
+0, x<0;\\
+\frac{3}{20}, 0\leqslant x\leqslant \frac{10}{3}\approx 3,\!333;\\
+\frac{5}{3 x^{2}}, x\geqslant\frac{10}{3};
+\end{array}.
+\right.
+$
+
+
+\begin{figure}[H]
+    \includegraphics[width=0.9\textwidth]{2_53d23}
+\end{figure}
+
+
+3) вероятность равна:
+$
+\P(3,\!263\leqslant Z\leqslant 5,\!35)=
+0,\!19897.
+$
+\end{solution}
+
+\begin{problem}
+Случайные величины $X$ и $Y$ независимы и имеют равномерное
+распределение на отрезках $[0;2]$ и $[0;8]$ соответственно. Для случайной величины $Z=\frac{Y}{X}$ найдите: 
+1) функцию распределения $F_Z(x)$;
+2) плотность распределения $f_Z(x)$ и постройте график плотности;
+3) вероятность $\P(2,\!016\leqslant Z\leqslant 6,\!716)$.
+\end{problem}
+\begin{solution}
+%\folder 2_53d24.png
+1) Функция распределения $F_Z(x)$ имеет вид:
+$
+F_Z(x)=\left\{
+\begin{array}{l}
+0, x\leqslant 0;\\
+\frac{x}{8}, 0\leqslant x\leqslant 4\approx 4,\!0;\\
+1 - \frac{2}{x}, x\geqslant4;
+\end{array}.
+\right.
+$
+2) Плотность распределения $f_Z(x)$ имеет вид:
+$
+f_Z(x)=\left\{
+\begin{array}{l}
+0, x<0;\\
+\frac{1}{8}, 0\leqslant x\leqslant 4\approx 4,\!0;\\
+\frac{2}{x^{2}}, x\geqslant4;
+\end{array}.
+\right.
+$
+
+
+\begin{figure}[H]
+    \includegraphics[width=0.9\textwidth]{2_53d24}
+\end{figure}
+
+
+3) вероятность равна:
+$
+\P(2,\!016\leqslant Z\leqslant 6,\!716)=
+0,\!4502.
+$
+\end{solution}
+
+\begin{problem}
+Случайные величины $X$ и $Y$ независимы и имеют равномерное
+распределение на отрезках $[0;3]$ и $[0;5]$ соответственно. Для случайной величины $Z=\frac{Y}{X}$ найдите: 
+1) функцию распределения $F_Z(x)$;
+2) плотность распределения $f_Z(x)$ и постройте график плотности;
+3) вероятность $\P(0,\!915\leqslant Z\leqslant 2,\!783)$.
+\end{problem}
+\begin{solution}
+%\folder 2_53d25.png
+1) Функция распределения $F_Z(x)$ имеет вид:
+$
+F_Z(x)=\left\{
+\begin{array}{l}
+0, x\leqslant 0;\\
+\frac{3 x}{10}, 0\leqslant x\leqslant \frac{5}{3}\approx 1,\!667;\\
+1 - \frac{5}{6 x}, x\geqslant\frac{5}{3};
+\end{array}.
+\right.
+$
+2) Плотность распределения $f_Z(x)$ имеет вид:
+$
+f_Z(x)=\left\{
+\begin{array}{l}
+0, x<0;\\
+\frac{3}{10}, 0\leqslant x\leqslant \frac{5}{3}\approx 1,\!667;\\
+\frac{5}{6 x^{2}}, x\geqslant\frac{5}{3};
+\end{array}.
+\right.
+$
+
+
+\begin{figure}[H]
+    \includegraphics[width=0.9\textwidth]{2_53d25}
+\end{figure}
+
+
+3) вероятность равна:
+$
+\P(0,\!915\leqslant Z\leqslant 2,\!783)=
+0,\!4261.
+$
+\end{solution}
+

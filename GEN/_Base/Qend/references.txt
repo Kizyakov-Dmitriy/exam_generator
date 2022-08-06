@@ -1,0 +1,21 @@
+\end{enumerate}
+
+\begin{figure}[H]
+	Подготовил
+	\hfill
+	\includegraphics[width=2cm]{Prepared}
+	П.Е. Рябов
+\end{figure}
+
+
+\begin{figure}[H]
+	Утверждаю:\\
+	Первый заместитель\\
+	руководителя департамента\\
+	Дата 01.06.2021
+	\hfill
+	\includegraphics[width=2cm]{Approved}
+	Феклин В.Г.
+\end{figure}
+
+\end{document}

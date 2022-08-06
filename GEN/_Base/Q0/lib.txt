@@ -1,0 +1,43 @@
+\usepackage{cmap}					% поиск в PDF
+\usepackage{mathtext} 				% русские буквы в формулах
+\usepackage[T2A]{fontenc}			% кодировка
+\usepackage[utf8]{inputenc}			% кодировка исходного текста
+\usepackage[english,russian]{babel}	% локализация и переносы
+\usepackage{ulem}                   % зачеркнутый текст
+\usepackage{amssymb}			% пакет математики
+\usepackage{float}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\DeclareGraphicsExtensions{.png}
+
+%%% Страница
+%\usepackage{extsizes} % Возможность сделать 14-й шрифт
+\usepackage[left=1cm,right=1cm,top=1cm,bottom=1cm]{geometry} % Простой способ задавать поля
+\pagestyle{empty}
+
+\begin{document}
+
+
+\begin{center}
+ФЕДЕРАЛЬНОЕ ГОСУДАРСТВЕННОЕ ОБРАЗОВАТЕЛЬНОЕ БЮДЖЕТНОЕ УЧРЕЖДЕНИЕ ВЫСШЕГО ОБРАЗОВАНИЯ
+
+    \textbf{«ФИНАНСОВЫЙ УНИВЕРСИТЕТ ПРИ ПРАВИТЕЛЬСТВЕ РОССИЙСКОЙ ФЕДЕРАЦИИ»}
+
+Факультет информационных технологий и анализа больших данных
+
+Департамент анализа данных и машинного обучения
+
+\textit{
+	\textbf{Дисциплина: «Теория вероятностей и математическая статистика»}}
+
+\textit{Направление подготовки: 01.03.02 «Прикладная математика и информатика»}
+
+\textit{Профиль: «Анализ данных и принятие решений в экономике и финансах»}
+
+\textit{Форма обучения очная, учебный 2020/2021 год, 4 семестр}
+
+\textbf{Билет ((n))}
+
+\end{center}
+
+\begin{enumerate}
