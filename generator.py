@@ -132,6 +132,7 @@ def write_adjust_pdf(text: str, folder_path: str, file_name: str) -> None:
 
 def remove_previous_pdf(folder_path: Union[str, pathlib.Path], file_name: str) -> None:
     """
+
     :param folder_path: Union[str, pathlib.Path] - путь к директории
     :param file_name: str - имя файла
     """
@@ -177,6 +178,16 @@ def create_pdf(bils: list, answers: list, BilPdf_path: Union[str, pathlib.Path],
             folder_path=pathlib.Path(pathlib.Path(AnsPdf_path, "trash")),
             file_name=ans_prefix + str(bil_number)
         )
+
+
+
+def clear_directory(folder_path: Union[str, pathlib.Path]) -> None:
+    """
+    
+    :param folder_path: Union[str, pathlib.Path] - путь к директории
+    """
+    shutil.rmtree(folder_path)
+    folder_path.mkdir()
 
 
 def replace_pdf(folder_path: Union[str, pathlib.Path], prefix: str, save_tex = True, global_files: list = []) -> None:
@@ -247,6 +258,8 @@ def gen_exam(number_of_bils: int = 1, start_bil_number: int = 0, number_of_tasks
     base_bils = get_head() + libs.replace(r"\textbf{Билет ((n))}", "")
     base_answers =get_head() + libs.replace(r"\textbf{Билет ((n))}", "")
     
+    clear_directory(BilPdf_path)
+    clear_directory(AnsPdf_path)
     
     folder_path = pathlib.Path(BilPdf_path, "trash")
     folder_path.mkdir(exist_ok=True)
